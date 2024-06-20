@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+</head>
+<body>
+    <form action="">
+    <div class="main">
+          <!--------------- Heading.... ---------------------->
+        <h1>Student Registration form</h1>
+
+        <!--------------- First Name details ---------------------->
+        <label for="">First Name:</label> <br>
+        <input type="text" name="" id="" placeholder="Enter your first name" required autofocus pattern="[a-zA-z]{3,6}" ><br>
+        
+        <!--------------- Last Name Details ---------------------->
+        <label for="">Last Name:</label> <br>
+        <input type="text" name="" id="" placeholder="Enter your last name" required autofocus pattern="[a-zA-z]{3,6}"><br>
+        
+        <!--------------- E-Mail Details ---------------------->
+        <label for="">E-Mail:</label><br>
+        <input type="email" name="" id="" placeholder="It should be contain @.." autofocus required> <br>
+        
+        <!--------------- Mobil number enter Details ---------------------->
+        <label for="">Mobile:</label> <br>
+        <input type="text" name="" id="" placeholder="only 10 digit allowed" autofocus required pattern="[0-9]{10,10}"><br>
+        
+        <!--------------- Gender selection Details ---------------------->
+        <label for="">Gender:</label> <br>
+        <input type="radio" name="g1" id="gen" required>Male
+        <input type="radio" name="g1" id="gen" required>Female <br>
+        
+        <!---------------Birth od Detail's  Details ---------------------->  
+        <label for="">Date of bith :</label> <br>
+        <input type="date" name="" id="" required> <br>
+        
+        <!--------------- Address Details ----------------------> 
+        <label for="">Address:</label> <br>
+        <textarea name="" id="" rows="10" cols="20">
+       
+        </textarea> <br>
+        
+        <!--------------- City Name Details ---------------------->
+        <label for="">City:</label> <br>
+        <input type="text" name="" id="" required pattern="[a-zA-z]{3,6}"><br>
+        
+        <!--------------- Area Pin Details ---------------------->
+        <label for="">Area Pin:</label><br>
+        <input type="text" name="" id="" required pattern="[0-9]{4,6}"><br>
+        
+        <!--------------- Select Qualification Details ---------------------->
+        <label for="">Qualification:</label> <br>
+        <select name="" id="" required>
+         <optgroup label="Bachelor Degre">
+            <option value="">BCA</option>
+            <option value="">BBA</option>
+            <option value="">BA</option>
+            <option value="">B.com</option>
+         </optgroup>
+         <optgroup label="Master Degree"> 
+            <option value="">MCA</option>
+            <option value="">MBA</option>
+            <option value="">MA</option>
+            <option value="">M.com</option>
+
+         </optgroup>
+        </select><br>
+        
+        <!--------------- Specialization selection Details ---------------------->
+        <label for="">Specialization:</label><br>
+        <input type="checkbox" name="Computer Science" id=""><label for="">Computer Science</label> <br>
+        <input type="checkbox" name="" id=""><label for="">Information Technology</label><br>
+        <input type="checkbox" name="Computer Science" id=""><label for="">Computer Architecture</label> <br>
+        <input type="checkbox" name="" id=""><label for="">Tele communication</label><br>
+        
+        <!--------------- Password  Details ----------------------> 
+        <label for="">password:</label><br> 
+        <input type="password" name="" id="" required pattern="[a-zA-z]{5,10}"><br>
+        
+        <!--------------- Button for registration form  ---------------------->
+        <button>Registered</button>
+    </div>
+
+
+    </form>
+</body>
+</html>
