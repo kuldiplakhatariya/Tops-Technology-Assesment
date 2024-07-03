@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+   <header class="header">
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="images/logo-img.jfif" alt="">
+            </div>
+           
+            <div class="nav-link">
+                <ul class="ul">
+                    <li class="li"><a href="">Home</a></li>
+                    <li class="li"><a href="">About</a></li>
+                    <li class="li"><a href="">Projects</a></li>
+                    <li class="li"><a href="">Conntact</a></li>
+                </ul>
+                <div class="djava" id="display-java">
+                    <ul class="ul">
+                        <li class="li"><a href="">Home</a></li>
+                        <li class="li"><a href="">About</a></li>
+                        <li class="li"><a href="">Projects</a></li>
+                        <li class="li"><a href="">Conntact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="logo2">
+                <button id="logo-2" onclick="getfunction()">
+                    <i class="fa-solid fa-bars"></i> 
+                </button>
+            </div>
+        </nav>
+    </div>
+   </header>
+  <script>
+    function getfunction(){
+        var ul=document.getElementById("display-java")
+        ul.style.display = "block";
+    }
+     
+     // console.log(ul)
+     //ul.classList.style.display = block;
+    // ul.classList.style.font_Size = "20px"
+   
+    //document.getElementById("display-java").classList.toggle("djava");
+      
+        //document.getElementById("display-java").style.display = "block";
+        //console.log("buut safsf")
+        // function getfunction(){
+        // var ul = document.getElementById("display-java");
+        // if (ul.style.display === "block") {
+        //     ul.style.display = "none";
+        // } else {
+        //     ul.style.display = "block";
+        // }
+        // }
+  </script>
+</body>
+</html>
